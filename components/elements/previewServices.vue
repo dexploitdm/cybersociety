@@ -4,7 +4,6 @@
       <div class="columns">
         <div class="row feature-box-group" data-equalizer>
           <div class="feature-box feature-box--card medium-4 columns text-center">
-            <a href="/graph-databases-book/?ref=home">
               <div class="feature-box_inner oreilly-book" data-equalizer-watch>
                 <div class="book-spacer"></div>
                 <div class="book-container">
@@ -16,12 +15,11 @@
                   <br />Graph Databases for Connected Data
                 </h2>
                 <p class="feature-box_description">Get started with O'Reilly's <em>Graph Databases</em> and discover how graph databases can help you manage and query highly connected data.</p>
-                <a href="/graph-databases-book/?ref=home" class="medium button feature-box_button">Download Now</a>
+                <a href="#" class="medium button feature-box_button">Download Now</a>
               </div>
-            </a>
           </div>
           <div class="feature-box feature-box--card medium-4 columns text-center">
-            <a href="/sandbox-v2/?ref=hcard">
+
               <div class="feature-box_inner sandbox" data-equalizer-watch>
                 <div class="book-spacer"></div>
                 <div class="book-container">
@@ -32,13 +30,11 @@
                   <br>Get Started Quickly with the Neo4j Sandbox
                 </h2>
                 <p class="feature-box_description">Start using Neo4j within seconds, with built-in guides and sample datasets for popular use cases. No Neo4j experience necessary.</p>
-                <a href="/sandbox-v2/?ref=hcard" class="medium button feature-box_button">Try It Now</a>
+                <a href="#" class="medium button feature-box_button">Try It Now</a>
               </div>
-            </a>
           </div>
 
           <div class="feature-box feature-box--card medium-4 columns text-center">
-            <a href="/whitepapers/graph-databases-beginners-ebook/?ref=home">
               <div class="feature-box_inner beginners-book" data-equalizer-watch>
                 <div class="book-spacer"></div>
                 <div class="book-container">
@@ -50,9 +46,8 @@
                   <br>Graph Databases<br>for Beginners
                 </h2>
                 <p class="feature-box_description">Learn the basics of graph technology and why a connections-first approach to data enables powerful new applications.</p>
-                <a href="/whitepapers/graph-databases-beginners-ebook/?ref=home" class="medium button feature-box_button">Read Now</a>
+                <a href="#" class="medium button feature-box_button">Read Now</a>
               </div>
-            </a>
           </div>
 
         </div>

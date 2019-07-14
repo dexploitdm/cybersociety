@@ -2,6 +2,8 @@
   <div class="home">
     <elements-partners />
     <elements-preview-services />
+    <elements-cools-one />
+    <elements-cools-two />
 
   <div class="pad"></div>
 
@@ -12,10 +14,12 @@
 
 import ElementsPartners from '@/components/elements/partners'
 import ElementsPreviewServices from '@/components/elements/previewServices'
+import ElementsCoolsOne from '@/components/elements/cools/coolsOne'
+import ElementsCoolsTwo from '@/components/elements/cools/coolsTwo'
 export default {
   layout: 'main',
   components: {
-    ElementsPartners, ElementsPreviewServices
+    ElementsPartners, ElementsPreviewServices, ElementsCoolsOne, ElementsCoolsTwo
   },
   mounted() {
     let jquery = document.createElement('script')
