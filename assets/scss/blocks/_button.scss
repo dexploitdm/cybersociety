@@ -1,0 +1,23 @@
+button, .button {
+  text-transform: uppercase;
+  padding: .9rem 3.2rem;
+  font-weight: 700;
+  position: relative;
+}
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem;
+  padding: .85em 1em;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color .25s ease-out,color .25s ease-out;
+  font-family: inherit;
+  font-size: .8125rem;
+  -webkit-appearance: none;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #6dcc9c;
+  color: #fefefe;
+}

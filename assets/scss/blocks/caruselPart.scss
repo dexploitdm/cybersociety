@@ -92,3 +92,33 @@ section:not(.top-bar-section).logo-strip {
   max-height: 100%;
   max-width: 80%;
 }
+.home .logo-strip_link {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin: 0 !important;
+  -webkit-transform: translate(-50%,-40%) scale(.95);
+  transform: translate(-50%,-40%) scale(.95);
+  opacity: 0;
+  transition: .25s;
+}
+.feature-box_button, .page-product .button {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: .9rem 3.2rem;
+  margin-top: 20px;
+}
+.home .logo-strip:hover .logo-strip_link {
+  opacity: 1;
+  -webkit-transform: translate(-50%,-60%);
+  transform: translate(-50%,-60%);
+}
+.home .logo-strip:hover .gallery-grid {
+  opacity: .7;
+  -webkit-transform: scale(.95);
+  transform: scale(.95);
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
