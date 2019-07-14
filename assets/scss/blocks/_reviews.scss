@@ -1,0 +1,213 @@
+.slick-dotted.slick-slider {
+  margin-bottom: 20px;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+.slick-slider {
+  margin-left: auto;
+  margin-bottom: auto;
+}
+.slick-slider {
+  display: none;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-slide {
+  outline: 0;
+}
+.slick-slide {
+  margin-bottom: 0;
+  background-size: cover;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots {
+  bottom: -15px;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li {
+  margin: 0 3px;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: 0 0;
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li button:before {
+   width: 15px;
+   height: 15px;
+   color: transparent;
+   border: 1px solid #9599a1;
+   border-radius: 100%;
+   opacity: 1;
+   transition: background-color .1s;
+ }
+
+
+
+
+
+
+
+
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d2d5da;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #eef1f8;
+  color: #30333a;
+}
+.panel-recent-posts {
+  padding: 1.75rem;
+  padding-bottom: 2.1875rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+.home .panel-recent-posts {
+  padding: 1.5625rem;
+  padding-bottom: 1.875rem;
+  margin-bottom: 2.5rem;
+  background-color: #eef1f8;
+  border: none;
+  position: relative;
+}
+@media screen and (min-width: 40em) {
+  .home .panel-recent-posts {
+    padding: 3.125rem;
+    padding-bottom: 3.4375rem;
+  }
+}
+.panel-recent-posts:after {
+  content: '';
+  background: url(//neo4j.com/wp-content/themes/neo4jweb/assets/css/../images/text-balloon-tick.svg) no-repeat 0 0;
+  height: 12px;
+  width: 22px;
+  position: absolute;
+  bottom: -12px;
+  right: 4.5625rem;
+}
+.home .panel-recent-posts:after {
+  content: '';
+  background: url(//neo4j.com/wp-content/themes/neo4jweb/assets/css/../images/text-balloon-tick-no-border.svg) no-repeat 0 0;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  bottom: -23px;
+  left: 40%;
+}
+.top_contributor_icon {
+  display: block;
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  float: right;
+  margin: 0 0 50px 20px;
+}
+.slick-slide img {
+  display: block;
+}
+.home .panel-recent-posts .top_contributor_icon {
+  margin-top: 10px;
+  margin-left: 0;
+  max-width: 90px;
+}
+.panel-recent-posts .entry-title, .panel-recent-posts .neo_staff_job-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.home .panel-recent-posts .entry-title, .home .panel-recent-posts .neo_staff_job-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.home .panel-recent-posts .entry-title-prefix {
+  font-size: 15px;
+  color: #dc99f7;
+}
+.home .panel-recent-posts .entry-title a, .home .panel-recent-posts .neo_staff_job-title a {
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+.home .panel-recent-posts .entry-content {
+  line-height: 1.4;
+  font-size: inherit;
+  padding-bottom: 20px;
+}
+.home .panel-recent-posts a {
+  color: #fff !important;
+  margin: 0 !important;
+}
+.feature-box_button, .page-product .button {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: .9rem 3.2rem;
+  margin-top: 20px;
+}

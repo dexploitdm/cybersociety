@@ -41,6 +41,17 @@ a {
   padding-right: .9375rem;
   padding-left: .9375rem;
 }
+@media print, screen and (min-width: 40em) {
+  .medium-2 {
+    width: 16.66667%;
+  }
+  .medium-9 {
+    width: 75%;
+  }
+  .medium-6 {
+    width: 50%;
+  }
+}
 @media screen and (min-width: 40em) {
   .img_wrap {
     height: 130px;
@@ -122,4 +133,22 @@ section header, section h2 {
 }
 section header h2 {
   margin-top: 0;
+}
+.home h3, .home .subheader, .home .subheader p, .subheader .home p, .page-product h3, .page-product .subheader, .page-product .subheader p, .subheader .page-product p, .neo_staff_archive h3, .neo_staff_archive .subheader, .neo_staff_archive .subheader p, .subheader .neo_staff_archive p {
+  color: #68bbf4;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.dark-background, .background-dark, .bg-dark, .background-dkgrey, .bg-dkgrey {
+  background-color: #68bbf4;
+  color: #fefefe;
+}
+.utility-collapse {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.home .dark-background .section_title, .home .background-dark .section_title, .home .bg-dark .section_title, .home .background-dkgrey .section_title, .home .bg-dkgrey .section_title, .page-product .dark-background .section_title, .page-product .background-dark .section_title, .page-product .bg-dark .section_title, .page-product .background-dkgrey .section_title, .page-product .bg-dkgrey .section_title, .neo_staff_archive .dark-background .section_title, .neo_staff_archive .background-dark .section_title, .neo_staff_archive .bg-dark .section_title, .neo_staff_archive .background-dkgrey .section_title, .neo_staff_archive .bg-dkgrey .section_title {
+  color: #fefefe;
 }
