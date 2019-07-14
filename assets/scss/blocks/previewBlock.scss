@@ -1,0 +1,92 @@
+.feature-box .icon-circle-bg.more-margin { margin-bottom:28px; margin-top:15px; }
+h2.feature-box_title { margin-bottom: 10px; line-height: 130%; }
+@media screen and (min-width: 64em) {
+  .feature-box-group.row {
+    margin-left: -45px;
+    margin-right: -45px;
+  }
+  .feature-box {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+}
+.feature-box--card {
+  padding: 0;
+}
+.feature-box--card .feature-box_inner {
+  margin: 40px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.feature-box_title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -.5px;
+  color: #6dcc9c;
+}
+h2.feature-box_title {
+  margin-bottom: 10px;
+  line-height: 130%;
+}
+.feature-box_title-prefix {
+  font-size: 15px;
+  font-weight: 600;
+  color: #525865;
+}
+.feature-box_description {
+  margin-bottom: 10px;
+}
+.feature-box--card .feature-box_inner .button {
+  margin-bottom: 0;
+}
+.feature-box_button, .page-product .button {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  padding: .9rem 3.2rem;
+  margin-top: 20px;
+}
+.feature-box .feature-box_icon.book {
+  border: 1px solid #d4d4d4;
+}
+.feature-box .feature-box_icon {
+  width: 89px;
+  margin-bottom: 15px;
+  height: 117px;
+}
+@media screen and (min-width: 40em) {
+  .feature-box--card {
+    transition: all .15s ease-in-out;
+  }
+  .feature-box--card .feature-box_inner {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .feature-box--card .feature-box_inner {
+    border-right: 2px solid #d2d5da;
+  }
+  .feature-box--card:last-child .feature-box_inner {
+    border-right: none;
+  }
+  .feature-box--card:hover, .feature-box--card:focus {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.15);
+    background-color: #fefefe;
+  }
+  .feature-box--card:hover .feature-box_inner, .feature-box--card:focus .feature-box_inner {
+    border-right: none;
+  }
+}
+@media print, screen and (min-width: 40em) {
+  .medium-4 {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .feature-box--card .feature-box_inner {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}

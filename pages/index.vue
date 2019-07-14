@@ -1,8 +1,9 @@
 <template>
   <div class="home">
     <elements-partners />
-    f
+    <elements-preview-services />
 
+  <div class="pad"></div>
 
   </div>
 </template>
@@ -10,10 +11,11 @@
 <script>
 
 import ElementsPartners from '@/components/elements/partners'
+import ElementsPreviewServices from '@/components/elements/previewServices'
 export default {
   layout: 'main',
   components: {
-    ElementsPartners
+    ElementsPartners, ElementsPreviewServices
   },
   mounted() {
     let jquery = document.createElement('script')
@@ -28,5 +30,7 @@ export default {
 </script>
 
 <style>
-
+  .pad {
+    padding-bottom: 50px;
+  }
 </style>

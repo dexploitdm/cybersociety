@@ -1,4 +1,7 @@
 @import 'variables';
 @import "common/base";
-@import "blocks/caruselPart";
 @import "blocks/button";
+
+//Элементы главной
+@import "blocks/caruselPart";
+@import "blocks/previewBlock";

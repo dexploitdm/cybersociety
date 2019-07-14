@@ -1,11 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,800&display=swap');
 *,
 *:before,
 *:after {
   box-sizing: border-box;
   margin: 0;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #30333a;
+}
+p {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.column-block {
+  margin-bottom: 1.875rem;
+}
+.column, .columns, .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: left;
+  clear: none;
+}
 .column-block>:last-child {
   margin-bottom: 0;
+}
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+  float: right;
 }
 @media screen and (min-width: 40em) {
   .img_wrap {
@@ -44,4 +70,14 @@ img {
   flex-basis: 0;
   order: 1;
 }
-
+.home .bg-light, .page-product .bg-light, .neo_staff_archive .bg-light {
+  background-color: #f1f6fa;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
