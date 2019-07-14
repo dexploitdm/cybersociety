@@ -1,6 +1,7 @@
 <template>
   <section class="bg-light lg newgraph utility-collapse flexible-content-section-7">
     <div class="row">
+      <h2 class="section_title box-title">Над чем работают создатели сайта?</h2>
       <div class="columns">
         <div class="row feature-box-group" data-equalizer>
           <div class="feature-box feature-box--card medium-4 columns text-center">
@@ -12,9 +13,11 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">Free O'Reilly Ebook</span>
-                  <br />Graph Databases for Connected Data
+                  <br />Программа-изобретатель
                 </h2>
-                <p class="feature-box_description">Get started with O'Reilly's <em>Graph Databases</em> and discover how graph databases can help you manage and query highly connected data.</p>
+                <p class="feature-box_description">
+                  Инструмент, который поможет инженерам находить экономически и технологически эффективные решения.
+                  Анализатор текста базы патентов сможет находить неочевидные сильные решения технических проблем. </p>
                 <a href="#" class="medium button feature-box_button">Download Now</a>
               </div>
           </div>
@@ -27,9 +30,14 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">No Download Required</span>
-                  <br>Get Started Quickly with the Neo4j Sandbox
+                  <br>Суперкомпьютер
                 </h2>
-                <p class="feature-box_description">Start using Neo4j within seconds, with built-in guides and sample datasets for popular use cases. No Neo4j experience necessary.</p>
+                <p class="feature-box_description">
+                  специализированная вычислительная машина, значительно превосходящая по
+                  своим техническим параметрам и скорости вычислений большинство
+                  существующих в мире компьютеров. Компьютер предназначен для обработки
+                  медицинской информации с помощью ИИ.
+                </p>
                 <a href="#" class="medium button feature-box_button">Try It Now</a>
               </div>
           </div>
@@ -43,9 +51,16 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">New FREE Ebook</span>
-                  <br>Graph Databases<br>for Beginners
+                  <br>Лаборатория для медицинских исследований.
                 </h2>
-                <p class="feature-box_description">Learn the basics of graph technology and why a connections-first approach to data enables powerful new applications.</p>
+                <p class="feature-box_description">
+                  Лаборатория необходима для проведения экспериментов, что подтвердят или опровергнут
+                  гипотезы сделанные автоматическими системами обработки информации.
+                  Понимание биологии на системном уровне дает возможность для более верного
+                  осмысления структуры, динамики и функций как отдельной клетки,
+                  так и организма в целом, чем при рассмотрении по-отдельности
+                  частей клетки или организма
+                </p>
                 <a href="#" class="medium button feature-box_button">Read Now</a>
               </div>
           </div>

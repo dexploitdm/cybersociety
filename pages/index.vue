@@ -2,8 +2,8 @@
   <div class="home">
     <elements-slider />
     <elements-partners />
-    <elements-preview-services />
     <elements-cools-one />
+    <elements-preview-services />
     <elements-cools-two />
     <elements-reviews />
     <elements-news />
