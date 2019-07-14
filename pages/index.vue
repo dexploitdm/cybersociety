@@ -1,19 +1,17 @@
 <template>
   <div class="home">
+    <elements-slider />
     <elements-partners />
     <elements-preview-services />
     <elements-cools-one />
     <elements-cools-two />
     <elements-reviews />
     <elements-news />
-
-  <div class="pad"></div>
-
   </div>
 </template>
 
 <script>
-
+import ElementsSlider from '@/components/elements/slider'
 import ElementsPartners from '@/components/elements/partners'
 import ElementsPreviewServices from '@/components/elements/previewServices'
 import ElementsCoolsOne from '@/components/elements/cools/coolsOne'
@@ -23,7 +21,7 @@ import ElementsNews from '@/components/elements/news'
 export default {
   layout: 'main',
   components: {
-    ElementsPartners, ElementsPreviewServices, ElementsCoolsOne, ElementsCoolsTwo, ElementsReviews, ElementsNews
+    ElementsSlider, ElementsPartners, ElementsPreviewServices, ElementsCoolsOne, ElementsCoolsTwo, ElementsReviews, ElementsNews
   },
   mounted() {
     let jquery = document.createElement('script')
@@ -38,7 +36,5 @@ export default {
 </script>
 
 <style>
-  .pad {
-    padding-bottom: 50px;
-  }
+
 </style>

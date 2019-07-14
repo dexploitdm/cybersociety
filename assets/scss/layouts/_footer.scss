@@ -1,0 +1,123 @@
+footer {
+  background-color: #292b31;
+  padding: 20px 0 0;
+  @media screen and (min-width: 40em) {
+      padding: 80px 0 0;
+  }
+}
+footer .footer-widgets {
+  padding-bottom: 25px;
+  line-height: 1.2;
+  font-size: 13px;
+  font-weight: 300;
+  @media screen and (min-width: 40em) {
+    padding-bottom: 75px;
+  }
+}
+@media screen and (min-width: 40em) {
+  .footer-widgets .row-1 {
+    margin-bottom: 60px;
+  }
+}
+.footer-menu-widget {
+  padding-right: 0;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu, .menu.horizontal {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.widgets ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+footer .footer-widgets .menu {
+  display: block;
+}
+@media screen and (min-width: 40em) {
+  .footer-widgets ul:last-child {
+    margin-bottom: 0;
+  }
+}
+.menu li {
+  list-style-image: none;
+  margin-bottom: 0;
+}
+footer .footer-widgets ul li {
+  list-style-image: none;
+  line-height: 1.1;
+  margin-bottom: 9px;
+}
+.footer-menu-widget .extra-margin {
+  margin-bottom: 1.5rem;
+}
+footer a {
+  color: #9599a1;
+}
+footer p {
+  color: #9599a1;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.copyright p, .copyright a {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.menu a, .menu .button {
+  line-height: 1;
+  text-decoration: none;
+  display: block;
+  padding: .7rem 1rem;
+}
+.menu input, .menu select, .menu a, .menu button {
+  margin-bottom: 0;
+}
+footer .footer-widgets ul li a {
+  font-size: 13px;
+}
+footer .footer-widgets .menu a, footer .footer-widgets .menu .button {
+  padding: 0;
+}
+footer .footer-widgets .column+.column:last-child, footer .footer-widgets .columns+.column:last-child, footer .footer-widgets .column+.columns:last-child, footer .footer-widgets .columns+.columns:last-child, footer .footer-widgets .columns+.column:last-child, footer .footer-widgets .columns+.columns:last-child, footer .footer-widgets .column+.columns:last-child, footer .footer-widgets .columns+.columns:last-child, footer .footer-widgets .columns+.columns:last-child {
+  float: left;
+}
+footer .footer-widgets .textwidget {
+  margin-bottom: 20px;
+}
+footer .social-icons a {
+  color: #525865;
+}
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+footer .logo-footer {
+  margin-bottom: 25px;
+  height: 40px;
+  background: url(/images/neo4j-logo-white.svg) no-repeat;
+}
+footer h5, footer h5 a {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #d2d5da;
+}

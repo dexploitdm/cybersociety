@@ -1,0 +1,184 @@
+ul#main-slider {
+  margin-left: -40px;
+}
+.two-floating-columns {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  overflow: hidden;
+  height: 330px;
+}
+.two-floating-columns {
+  background-image: url(/images/slider/bg-one.jpeg);
+}
+.two-floating-columns .background-left {
+  width: 50%;
+  height: 100%;
+  //background-color: rgba(119,240,249,0.5);
+  float: left;
+  display: table;
+}
+.two-floating-columns .background-left {
+  //border: 1px solid silver;
+}
+.two-floating-columns .background-left {
+  width: 51%;
+}
+.two-floating-columns .background-right {
+  width: 50%;
+  height: 100%;
+  /* margin-left: 0; */
+  /* background-color: rgba(249,119,121,0.5); */
+  float: right;
+}
+.two-floating-columns .background-right {
+  width: 49%;
+}
+.two-floating-columns .inner-sleeve {
+  /* border: 1px solid silver; */
+  display: table;
+  height: 100%;
+  padding: 20px 50px;
+}
+.two-floating-columns .background-left .inner-sleeve {
+  float: right;
+}
+.two-floating-columns .background-left .inner-sleeve {
+  padding-right: 0;
+}
+.two-floating-columns .text-container, .two-floating-columns .image-container {
+  max-width: 470px;
+  /* background-color: rgba(249,119,121,0.5); */
+}
+.two-floating-columns .inner-sleeve .text-container {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 650px;
+}
+.two-floating-columns .text-container * {
+  color: $color-white;
+}
+.two-floating-columns .kicker {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+.two-floating-columns h1 {
+  font-size: 40px;
+  line-height: 113%;
+}
+.two-floating-columns h2 {
+  color: #525865;
+  font-weight: 100;
+  letter-spacing: -.03em;
+  font-size: 22px;
+}
+.two-floating-columns .text-container h2 {
+  color: $color-white;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+.two-floating-columns .button {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-size: 22px;
+  padding: 16px 20px;
+}
+.two-floating-columns .background-right .inner-sleeve {
+  float: left;
+  padding: 0;
+  width: 100%;
+  max-width: 650px;
+}
+.background-right .image-container {
+  background-image: url(//s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20190414115438/graph-algorithms-book-tablet.png);
+  height: 100%;
+  width: 100%;
+  max-width: 650px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 330px;
+}
+.slick-slider {
+  margin-left: auto;
+  margin-bottom: auto;
+}
+.cloud-promo {
+  background-image: url(//s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20190408130932/background1.jpg);
+  height: 330px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-center {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+}
+.cloud-promo .inner-sleeve {
+  height: 100%;
+  display: table;
+  margin: 0 auto;
+}
+.cloud-promo .inner-sleeve {
+  height: 100%;
+  display: table;
+  margin: 0 auto;
+}
+.cloud-promo .text-container {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+.cloud-promo .h1-container {
+  text-align: center;
+  padding: 0;
+}
+.cloud-promo h1, .cloud-promo h2 {
+  color: white;
+  font-weight: 100;
+}
+.cloud-promo h1 {
+  font-size: 65px;
+}
+.cloud-promo h2 {
+  font-size: 28px;
+  letter-spacing: .01em;
+}
+.cloud-promo .learn-more.button {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 13px 30px;
+}
+.cloud-promo .background-left {
+  background-image: url(//s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20190408150716/left_nodes2.svg);
+  /* background-color: rgba(248,86,88,0.60); */
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 153%;
+  background-position: 111% 33%;
+  width: 39%;
+}
+.cloud-promo .background-right {
+  background-image: url(//s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20190409095458/right_nodes3.svg);
+  /* background-color: rgba(62,96,249,0.58); */
+  float: right;
+  background-repeat: no-repeat;
+  background-size: 138%;
+  background-position: 4% 58%;
+  width: 39%;
+}
+.bg-dark-box {
+  background-color: rgba(25, 25, 25, 0.36);
+  border-radius: 10px;
+  padding-left: 20px;
+}
