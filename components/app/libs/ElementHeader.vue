@@ -1,5 +1,5 @@
 <template>
-    <div class="we">
+    <div class="header-box">
       <div class="row">
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
           <el-menu-item>
@@ -42,17 +42,19 @@
               <nuxt-link to="/login">Sign in</nuxt-link>
               <el-button type="info" size="mini" round><nuxt-link to="/register">Sign up</nuxt-link></el-button>
             </div>
-
-
-
           </div>
         </el-menu>
         <div class="line"></div>
+        <el-button class="drawer-nav" size="mini" @click="openMenu">
+          <i class="el-icon-s-fold"></i>
+        </el-button>
       </div>
+      <drawer-app :direction="'left'" :exist="true" ref="LeftDrawer"/>
     </div>
 </template>
 
 <script>
+  import DrawerApp from '@/components/app/libs/DrawerApp'
     export default {
         name: "ElementHeader",
         data() {
@@ -60,17 +62,35 @@
             activeIndex: '1',
           };
         },
+      components: {
+        DrawerApp
+      },
         methods: {
           handleSelect(key, keyPath) {
             console.log(key, keyPath);
+          },
+          openMenu(){
+            if(this.$refs.LeftDrawer.active){
+              this.$refs.LeftDrawer.close();
+            }else{
+              this.$refs.LeftDrawer.open();
+            }
           }
         }
     }
 </script>
 
 <style lang="scss" scoped>
+  .header-box {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  }
   ul.el-menu-demo {
-    display: flex;
+    display: none;
     align-items: center;
   }
   .el-menu--popup {
@@ -105,4 +125,20 @@
       }
     }
   }
+  .drawer-nav {
+    padding: 0;
+    margin: 10px 0 10px 20px;
+    i {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 968px) {
+    .drawer-nav {
+      display: none;
+    }
+    ul.el-menu-demo {
+      display: flex;
+    }
+  }
+
 </style>
