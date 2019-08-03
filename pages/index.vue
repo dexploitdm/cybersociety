@@ -1,27 +1,25 @@
 <template>
   <div class="home">
     <elements-slider />
-    <elements-partners />
     <elements-cools-one />
     <elements-preview-services />
     <elements-cools-two />
-    <elements-reviews />
+    <search-people />
     <elements-news />
   </div>
 </template>
 
 <script>
 import ElementsSlider from '@/components/elements/slider'
-import ElementsPartners from '@/components/elements/partners'
 import ElementsPreviewServices from '@/components/elements/previewServices'
 import ElementsCoolsOne from '@/components/elements/cools/coolsOne'
 import ElementsCoolsTwo from '@/components/elements/cools/coolsTwo'
-import ElementsReviews from '@/components/elements/reviews'
+import searchPeople from '@/components/elements/searchPeople'
 import ElementsNews from '@/components/elements/news'
 export default {
   layout: 'main',
   components: {
-    ElementsSlider, ElementsPartners, ElementsPreviewServices, ElementsCoolsOne, ElementsCoolsTwo, ElementsReviews, ElementsNews
+    ElementsSlider, ElementsPreviewServices, ElementsCoolsOne, ElementsCoolsTwo, searchPeople, ElementsNews
   },
   mounted() {
     let jquery = document.createElement('script')

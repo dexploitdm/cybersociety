@@ -198,6 +198,9 @@
         let opacity = window.getComputedStyle(this.overlay).getPropertyValue('opacity');
         if (opacity <= 0) {
           this.overlay.style.zIndex = -999;
+          console.log('close')
+          let body = document.body;
+          body.removeAttribute("class");
         }
       },
       validate(direction, gesture) {
@@ -219,6 +222,8 @@
         this.overlay.style.opacity = opacity;
         if (opacity > 0) {
           this.overlay.style.zIndex = 999;
+          let body = document.body;
+          body.classList.add("drawer-open");
         }
       },
       gesture(e) {
@@ -298,7 +303,7 @@
   }
 </script>
 <style scoped>
-  div.overlay {
+  .drawer-open div.overlay {
     position: fixed;
     z-index: -999;
     left: 0;

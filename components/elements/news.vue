@@ -3,7 +3,7 @@
     <div class="row full-width">
       <div class="feature-box column medium-6" data-equalizer-watch>
         <div class="feature-box_inner">
-          <h2 class="section_title utility-collapse-bottom">In the News</h2>
+          <h2 class="section_title utility-collapse-bottom">Важные статьи</h2>
           <div class="news-list">
             <div class="news-item">
               <a href="#">
@@ -36,9 +36,9 @@
            style="background-image: url('/images/gc-large-audience.jpg');"
            data-equalizer-watch>
         <div class="feature-box_inner">
-          <h3 class="section_title utility-collapse-bottom">Neo4j Events</h3>
+          <h3 class="section_title utility-collapse-bottom">Уже присоединились</h3>
           <div class="panel-recent-events">
-            <a class="button feature-box_button" href="#">More Events</a>
+            <nuxt-link to="/all" class="button feature-box_button">Смотреть всех</nuxt-link>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <section class="bg-light lg newgraph utility-collapse flexible-content-section-7">
     <div class="row">
-      <h2 class="section_title box-title">Над чем работают создатели сайта?</h2>
+<!--      <h2 class="section_title box-title">Над чем работают создатели сайта?</h2>-->
       <div class="columns">
         <div class="row feature-box-group" data-equalizer>
           <div class="feature-box feature-box--card medium-4 columns text-center">
@@ -13,11 +13,11 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">Free O'Reilly Ebook</span>
-                  <br />Программа-изобретатель
+                  <br />Медицина
                 </h2>
                 <p class="feature-box_description">
-                  Инструмент, который поможет инженерам находить экономически и технологически эффективные решения.
-                  Анализатор текста базы патентов сможет находить неочевидные сильные решения технических проблем. </p>
+                  непосредственно в этой области знания возникла проблема.
+                </p>
                 <a href="#" class="medium button feature-box_button">Download Now</a>
               </div>
           </div>
@@ -30,13 +30,11 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">No Download Required</span>
-                  <br>Суперкомпьютер
+                  <br>Программирование
                 </h2>
                 <p class="feature-box_description">
-                  специализированная вычислительная машина, значительно превосходящая по
-                  своим техническим параметрам и скорости вычислений большинство
-                  существующих в мире компьютеров. Компьютер предназначен для обработки
-                  медицинской информации с помощью ИИ.
+                  благодаря программированию можно создать инструменты для расширения возможностей человека и облегчения,
+                  ускорения любой умственной работы..
                 </p>
                 <a href="#" class="medium button feature-box_button">Try It Now</a>
               </div>
@@ -51,15 +49,12 @@
                 </div>
                 <h2 class="feature-box_title">
                   <span class="feature-box_title-prefix">New FREE Ebook</span>
-                  <br>Лаборатория для медицинских исследований.
+                  <br>Экономика
                 </h2>
                 <p class="feature-box_description">
-                  Лаборатория необходима для проведения экспериментов, что подтвердят или опровергнут
-                  гипотезы сделанные автоматическими системами обработки информации.
-                  Понимание биологии на системном уровне дает возможность для более верного
-                  осмысления структуры, динамики и функций как отдельной клетки,
-                  так и организма в целом, чем при рассмотрении по-отдельности
-                  частей клетки или организма
+                  нужна для того чтобы программы созданные для облегчения и ускорения поиска
+                  и промежуточные биотехнологические решения созданные
+                  программами отвечали потребностям рынка.
                 </p>
                 <a href="#" class="medium button feature-box_button">Read Now</a>
               </div>

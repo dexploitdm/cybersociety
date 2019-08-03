@@ -79,12 +79,12 @@
                     <div class="text-container">
                       <div class="h1-container">
                         <h1>
-                          Neo4j for Google Cloud
+                          Immortality aggregator
                         </h1>
                         <h2>
-                          Fully-Managed &bull; Scalable &bull; Secure
+                          Объединение людей, информации, инструментов для решения проблем старения и смерти.
                         </h2>
-                        <div class="learn-more button">
+                        <div class="learn-more button btn-top">
                           Learn More
                         </div>
                       </div>
@@ -110,5 +110,7 @@
 </script>
 
 <style scoped>
-
+  .btn-top {
+    margin-top: 20px;
+  }
 </style>

@@ -2,7 +2,7 @@ footer {
   background-color: #292b31;
   padding: 20px 0 0;
   @media screen and (min-width: 40em) {
-      padding: 80px 0 0;
+    padding: 80px 0 0;
   }
 }
 footer .footer-widgets {
@@ -11,12 +11,12 @@ footer .footer-widgets {
   font-size: 13px;
   font-weight: 300;
   @media screen and (min-width: 40em) {
-    padding-bottom: 75px;
+    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 40em) {
   .footer-widgets .row-1 {
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
 }
 .footer-menu-widget {
@@ -38,9 +38,6 @@ footer .footer-widgets {
   list-style: none;
   padding: 0;
   margin: 0 0 20px;
-}
-footer .footer-widgets .menu {
-  display: block;
 }
 @media screen and (min-width: 40em) {
   .footer-widgets ul:last-child {
@@ -94,8 +91,17 @@ footer .footer-widgets .column+.column:last-child, footer .footer-widgets .colum
 footer .footer-widgets .textwidget {
   margin-bottom: 20px;
 }
+footer .social-icons {
+  text-align: right;
+  margin-top: -9px;
+}
 footer .social-icons a {
-  color: #525865;
+  color: #f56c6c;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    color: #ffd9d9;
+  }
 }
 .fa-lg {
   font-size: 1.33333333em;
@@ -120,4 +126,8 @@ footer h5, footer h5 a {
   text-transform: uppercase;
   margin-top: 0;
   color: #d2d5da;
+}
+.footer-menus .menu {
+  display: flex;
+  justify-content: space-between;
 }
