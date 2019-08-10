@@ -16,10 +16,11 @@
                   <img src="/images/icons/globus.png">
                 </div>
                 <div class="button">
-                  Try SimilarWeb
+                  искать по географии
                 </div>
                 <div class="search-text">
-                  Gain hands-on experience with your own free SimilarWeb Account
+                  Находите единомышленников
+                  в своем городе
                 </div>
               </a>
               <a class="search-content-box two">
@@ -27,10 +28,10 @@
                   <img src="/images/icons/brain.png">
                 </div>
                 <div class="button">
-                  Try SimilarWeb
+                  искать по специальности
                 </div>
                 <div class="search-text">
-                  Gain hands-on experience with your own free SimilarWeb Account
+                  Находите идейных профессионалов в команду
                 </div>
               </a>
           </div>

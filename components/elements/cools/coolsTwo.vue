@@ -3,7 +3,7 @@
     <div class="row">
       <div class="columns ">
         <header class="text-center">
-          <h2 class="section_title">Над чем работают создатели сайта?</h2>
+          <h2 class="section_title">Кому пригодиться сайт?</h2>
         </header>
       </div>
     </div>
@@ -14,11 +14,11 @@
             <a href="#">
               <img class="icon-circle-bg aligncenter"
                    src="https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20170509141754/home-icons-without-circle-4.svg"/>
-              <h2 class="feature-box_title utility-collapse-bottom">Программа-изобретатель</h2>
+              <h2 class="feature-box_title utility-collapse-bottom">Startup проекты</h2>
               <p class="feature-box_description">
-                Инструмент, который поможет инженерам находить экономически и технологически
-                эффективные решения. Анализатор текста базы патентов сможет находить
-                неочевидные сильные решения технических проблем.</p>
+                Находите идейных профессионалов в команду, используйте
+                собранные нами инструменты и информацию для реализации
+                больших идей маленькими командами.</p>
               <p class="feature-box_link">Get Started</p>
             </a>
           </div>
@@ -27,11 +27,13 @@
             <a href="#">
               <img class="icon-circle-bg aligncenter"
                    src="https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20170509141756/home-icons-without-circle-6.svg" />
-              <h2 class="feature-box_title utility-collapse-bottom" style="color:#dc99f7;">Суперкомпьютер</h2>
+              <h2 class="feature-box_title utility-collapse-bottom" style="color:#dc99f7;">Организации и течения</h2>
               <p class="feature-box_description">
-                Специализированная вычислительная машина, значительно превосходящая по своим
-                техническим параметрам и скорости вычислений большинство существующих в мире компьютеров.
-                Компьютер предназначен для обработки медицинской информации с помощью ИИ.
+                Существует множество разных направлений связанных с продлением жизни.
+                У каждой свои подходы  и идеология.
+                Информируйте потенциальных последователей о своих
+                преимуществах и делитесь собственными исследованиями
+                со всеми кому это интересно.
               </p>
               <p class="feature-box_link" >Get the Guide</p>
             </a>
@@ -41,13 +43,10 @@
             <a href="#">
               <img class="icon-circle-bg aligncenter"
                    src="https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/20170509141755/home-icons-without-circle-5.svg" />
-              <h2 class="feature-box_title utility-collapse-bottom" style="color:#68bbf4;">Лаборатория для медицинских исследований</h2>
+              <h2 class="feature-box_title utility-collapse-bottom" style="color:#68bbf4;">Локальные клубы</h2>
               <p class="feature-box_description">
-                Лаборатория необходима для проведения экспериментов, что подтвердят или
-                опровергнут гипотезы сделанные автоматическими системами обработки информации.
-                Понимание биологии на системном уровне дает возможность для более верного
-                осмысления структуры, динамики и функций как отдельной клетки, так и организма
-                в целом, чем при рассмотрении по-отдельности частей клетки или организма .&nbsp;
+                Находите единомышленников в своем городе,
+                обменивайтесь идеями и популяризируйте футуристические технологии.&nbsp;
               </p>
               <p class="feature-box_link" >Get the White Paper</p>
             </a>
