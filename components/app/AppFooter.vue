@@ -5,7 +5,7 @@
         <div class="small-12 medium-8 columns footer-menus">
           <ul class="menu">
             <li>
-              <nuxt-link to="/#">О нас</nuxt-link>
+              <nuxt-link to="/about">О нас</nuxt-link>
             </li>
             <li>
               <nuxt-link to="/#">Проекты</nuxt-link>

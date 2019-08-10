@@ -18,50 +18,86 @@
           <el-submenu index="1">
             <template slot="title">
               <i class="el-icon-user"></i>
-              <span><nuxt-link to="/rr1">Люди</nuxt-link></span>
+              <span>Люди</span>
             </template>
             <el-menu-item-group title="Люди">
-              <el-menu-item index="1-1">Поиск единомышленников</el-menu-item>
-              <el-menu-item index="1-2">Обучение</el-menu-item>
+              <el-menu-item index="1-1">
+                <nuxt-link to="/people/search">
+                  Поиск единомышленников
+                </nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="1-2">
+                <nuxt-link to="/people/training">
+                  Обучение
+                </nuxt-link>
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
 
           <el-submenu index="2">
             <template slot="title">
               <i class="el-icon-cpu"></i>
-              <span><nuxt-link to="/rr1">Информация</nuxt-link></span>
+              <span>Информация</span>
             </template>
 
             <el-menu-item-group title="Информация">
-              <el-menu-item index="2-1">Медицина</el-menu-item>
-              <el-menu-item index="2-2">Программирование</el-menu-item>
-              <el-menu-item index="2-3">Экономика</el-menu-item>
+              <el-menu-item index="2-1">
+                <nuxt-link to="/info/medicine">Медицина</nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="2-2">
+                <nuxt-link to="/info/programming">
+                  Программирование
+                </nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="2-3">
+                <nuxt-link to="/info/economy">
+                  Экономика
+                </nuxt-link>
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
 
           <el-submenu index="3">
             <template slot="title">
               <i class="el-icon-set-up"></i>
-              <span><nuxt-link to="/rr1">Инструменты</nuxt-link></span>
+              <span>Инструменты</span>
             </template>
 
             <el-menu-item-group title="Инструменты">
-              <el-menu-item index="3-1">Медицина</el-menu-item>
-              <el-menu-item index="3-2">Программирование</el-menu-item>
-              <el-menu-item index="3-3">Рынок</el-menu-item>
-              <el-menu-item index="3-4">Готовые решения</el-menu-item>
+              <el-menu-item index="3-1">
+                <nuxt-link to="/instruments/medicine">Медицина</nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="3-2">
+                <nuxt-link to="/instruments/programming">
+                  Программирование
+                </nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="3-3">
+                <nuxt-link to="/instruments/market">
+                  Рынок
+                </nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="3-4">
+                <nuxt-link to="/instruments/made-solutions">
+                  Готовые решения
+                </nuxt-link>
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
 
           <el-submenu index="4">
             <template slot="title">
               <i class="el-icon-location"></i>
-              <span><nuxt-link to="/rr1">О нас</nuxt-link></span>
+              <span>О нас</span>
             </template>
 
             <el-menu-item-group title="О нас">
-              <el-menu-item index="4-1">О нас</el-menu-item>
-              <el-menu-item index="4-2">Контакты</el-menu-item>
+              <el-menu-item index="4-1">
+                <nuxt-link to="/about">О нас</nuxt-link>
+              </el-menu-item>
+              <el-menu-item index="4-2">
+                <nuxt-link to="/contacts">Контакты</nuxt-link>
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
 

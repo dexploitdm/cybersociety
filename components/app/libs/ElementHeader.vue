@@ -8,27 +8,65 @@
             </nuxt-link>
           </el-menu-item>
           <el-submenu index="2">
-            <template slot="title"><nuxt-link to="/rr2">Люди</nuxt-link></template>
-            <el-menu-item index="2-1">Поиск единомышленников</el-menu-item>
-            <el-menu-item index="2-2">Обучение</el-menu-item>
+            <template slot="title"><a>Люди</a></template>
+            <el-menu-item index="2-1">
+              <nuxt-link to="/people/search">
+                Поиск единомышленников
+              </nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="2-2">
+              <nuxt-link to="/people/training">
+                Обучение
+              </nuxt-link>
+            </el-menu-item>
           </el-submenu>
           <el-submenu index="3">
-            <template slot="title"><nuxt-link to="/rr3">Информация</nuxt-link></template>
-            <el-menu-item index="3-1">Медицина</el-menu-item>
-            <el-menu-item index="3-2">Программирование</el-menu-item>
-            <el-menu-item index="3-3">Экономика</el-menu-item>
+            <template slot="title"><a>Информация</a></template>
+            <el-menu-item index="3-1">
+              <nuxt-link to="/info/medicine">
+                Медицина
+              </nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="3-2">
+              <nuxt-link to="/info/programming">
+                Программирование
+              </nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="3-3">
+              <nuxt-link to="/info/economy">
+                Экономика
+              </nuxt-link>
+            </el-menu-item>
           </el-submenu>
           <el-submenu index="4">
-            <template slot="title"><nuxt-link to="/rr4">Инструменты</nuxt-link></template>
-            <el-menu-item index="4-1">Медицина</el-menu-item>
-            <el-menu-item index="4-2">Программирование</el-menu-item>
-            <el-menu-item index="4-3">Рынок</el-menu-item>
-            <el-menu-item index="4-4">Готовые решения</el-menu-item>
+            <template slot="title"><a>Инструменты</a></template>
+            <el-menu-item index="4-1">
+              <nuxt-link to="/instruments/medicine">Медицина</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="4-2">
+              <nuxt-link to="/instruments/programming">
+                Программирование
+              </nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="4-3">
+              <nuxt-link to="/instruments/market">
+                Рынок
+              </nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="4-4">
+              <nuxt-link to="/instruments/made-solutions">
+                Готовые решения
+              </nuxt-link>
+            </el-menu-item>
           </el-submenu>
           <el-submenu index="5">
-            <template slot="title"><nuxt-link to="/rr4">О нас</nuxt-link></template>
-            <el-menu-item index="5-1">О нас</el-menu-item>
-            <el-menu-item index="5-2">Контакты</el-menu-item>
+            <template slot="title"><a>О нас</a></template>
+            <el-menu-item index="5-1">
+              <nuxt-link to="/about">О нас</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="5-2">
+              <nuxt-link to="/contacts">Контакты</nuxt-link>
+            </el-menu-item>
           </el-submenu>
 
           <el-menu-item index="6">
@@ -95,12 +133,21 @@
   }
   .el-menu--popup {
     width: 400px;
+    .el-menu-item a {
+      color: #30333a;
+      &:hover {
+        color: #000;
+      }
+    }
   }
   .logo img {
     max-width: 100px;
   }
   .el-menu--popup-bottom-start .el-menu-item {
     margin: 10px 20px;
+  }
+  .el-submenu__title {
+    color: #000;
   }
   .el-submenu__title a {
     color: #000;
