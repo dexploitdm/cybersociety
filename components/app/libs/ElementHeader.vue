@@ -86,7 +86,7 @@
     top: 0;
     background-color: white;
     width: 100%;
-    z-index: 9;
+    z-index: 10;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
   }
   ul.el-menu-demo {
